@@ -4,8 +4,8 @@
 const String MACHINE_NAME = "machinename" // Machine name, lowercase, used for MQTT topics
 
 // WiFi network - must be replaced for testing
-const char* ssid = "VISA";
-const char* password = "v1s4!@#$";
+const char* ssid = "SSID";
+const char* password = "Password";
 
 // Pin values
 const int but_pin_red = D1;
@@ -13,7 +13,7 @@ const int but_pin_green = D5;
 const int but_pin_yellow = D3;
 
 // Raspberry Pi's IP address
-const char* mqtt_server = "105.112.124.30";
+const char* mqtt_server = "Gateway IP";
 
 // Keeps track of previous value
 int prev_state_red = -1;
